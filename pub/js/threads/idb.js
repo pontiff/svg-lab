@@ -1,0 +1,27 @@
+goog.provide('saetos.cljs.threads.idb');
+goog.require('cljs.core');
+goog.require('goog.events');
+goog.require('goog.db');
+goog.inherits(saetos.cljs.threads.idb.Idb = (function Idb(dbName,dbVersion){
+var this$ = this;
+goog.db.openDatabase(dbName,dbVersion,(function (ev,db,tx){
+var store = dbName.concat(".objects");
+if(cljs.core.not.call(null,db.getObjectStoreNames().contains(store)))
+{return db.createObjectStore(store);
+} else
+{return [];
+}
+})).addCallback((function (db){
+this$.store = dbName.concat(".objects");
+this$.db = db;
+this$.index = "indices";
+return this$.dispatchEvent("dbOpen");
+}));
+this$.put = (function (key,val,callback){
+return this$.db.createTransaction([this$.store],goog.db.Transaction.TransactionMode.READ_WRITE).objectStore(this$.store).put(val,key).addCallback(callback);
+});
+this$.get = (function (key,callback){
+return this$.db.createTransaction([this$.store],goog.db.Transaction.TransactionMode.READ).objectStore(this$.store).get(key).addCallback(callback);
+});
+return this$;
+}),goog.events.EventTarget);

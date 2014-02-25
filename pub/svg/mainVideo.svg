@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1600"
+   height="900"
+   id="mainVideoSvg"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="mainVideo.svg"
+   viewBox="0 0 1600 900">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 450 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1600 : 450 : 1"
+       inkscape:persp3d-origin="800 : 300 : 1"
+       id="perspective2991" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3871">
+      <rect
+         class="narratorVidAnim"
+         y="309.89221"
+         x="-645.55774"
+         height="52.852692"
+         width="996.05151"
+         id="rect3873"
+         style="fill:#8ab64a;fill-opacity:0.65882353;fill-rule:evenodd;stroke:none" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="589.86832"
+     inkscape:cy="473.23322"
+     inkscape:document-units="px"
+     inkscape:current-layer="mainVideoSvg"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1004"
+     inkscape:window-x="-4"
+     inkscape:window-y="-1"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <image
+       y="-616.66327"
+       x="-933.33002"
+       id="image3056"
+       xlink:href="file:///home/user/code/svg-lab/dev/snapshot.png"
+       height="2133.3333"
+       width="2666.6667"
+       style="opacity:0.43347641" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-152.36218)" />
+  <text
+     xml:space="preserve"
+     style="font-size:47.3937645px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e91010;fill-opacity:1;stroke:none;font-family:Sans"
+     x="355.38324"
+     y="352.96292"
+     id="text3077"
+     sodipodi:linespacing="125%"
+     transform="scale(0.91152426,1.0970635)"
+     clip-path="url(#clipPath3871)"><tspan
+       sodipodi:role="line"
+       id="tspan3079"
+       x="355.38324"
+       y="352.96292">This is some test text for you to consider</tspan></text>
+</svg>

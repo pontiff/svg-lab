@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body style="padding:0px; margin:0px; border:0px; overflow:hidden;">
+
+<div style="width:100vw; height: 56.25vw;  max-height: 100vh; background-color:#282828; max-width: 177.78vh; margin: auto; position: absolute;  z-index:0; top:0;bottom:0; left:0;right:0;border-radius:10px;overflow:hidden;" id="container">
+
+ <img src="img/narrator.jpg"  style="position:absolute; top:2.8%; left:35%; height:15%; width:8.3%;"></img>
+
+ <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%"  preserveAspectRatio="xMidYMid" style="position:absolute; z-index:1;" id="containerSvg" version="1.1">
+ </svg>
+
+ <div id="videoContainer" class="contracted">
+ 
+  <video id="mainVideo" style="width:100%; height:100%; position:absolute; top:0%; left:0%;" class="mainVidAnim narratorVidAnim" >
+    <source type="video/webm" src="vid/main.webm"/>
+  </video>
+
+ <div id="narratorDiv" class="mainVidAnim narratorVidAnim" 
+                style="height:53.2%; width:30%; top:23%; left:34.5%; display:none;"  >
+     <video id="narratorVideo"  class="mainVidAnim narratorVidAnim contracted">
+       <source type="video/webm" src="vid/narrator.webm"/> 
+     </video> 
+
+  <div id="narratorTOCs" style="display:none">
+    <div id="nt2" class="toc" style="display:none;" >
+      <p  class="tocHeader"> A GOOD COP &nbsp</p> 
+      <p  frame="881" class="toc" style="padding-top:0px">UNDERSTANDS THE LAW &#8212</p>
+      <p  frame="1305" class="toc">KEEPS THE PEACE &#8212</p>
+      <p  frame="1984" class="toc">DOES NOT OVERREACT &#8212</p>
+      <p  frame="2430" class="toc">HAS INTEGRITY &#8212</p> 
+    </div> 
+  </div>
+
+  <svg id="narratorController" xmlns="http://www.w3.org/2000/svg" style="position:absolute; height:128%; display:none; width:128%; top:-14%; left: -14%;" viewbox="0 0 100 100">
+   <g id="narratorPlayButton" style="opacity:1;">
+     <path id="path4501" d="M50,25c-6.568,0-13.043,2.668-17.688,7.312-4.644,4.645-7.312,11.12-7.312,17.688s2.668,13.043,7.312,17.688c4.645,4.644,11.12,7.312,17.688,7.312s13.043-2.668,17.688-7.312c4.644-4.645,7.312-11.12,7.312-17.688s-2.668-13.043-7.312-17.688c-4.645-4.644-11.12-7.312-17.688-7.312zm0,3.625c5.5698,0,11.155,2.3428,15.094,6.2812,3.938,3.939,6.281,9.524,6.281,15.094,0,5.5698-2.3428,11.155-6.2812,15.094-3.939,3.938-9.524,6.281-15.094,6.281s-11.155-2.343-15.094-6.281c-3.938-3.939-6.281-9.524-6.281-15.094,0-5.5698,2.3428-11.155,6.2812-15.094,3.939-3.938,9.524-6.281,15.094-6.281z" style="baseline-shift:baseline;block-progression:tb;fill:#bfaa30;color:#000000;opacity:1;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;"/>
+     <path id="path5622" style="opacity:1;fill:#bfaa30;" d="m64.536,50.318-11.111,6.9745-11.111,6.9745,0-13.949,0-13.949,11.111,6.9745z"/>
+   </g>
+   <g id="narratorDisableButton" style="opacity:1;">
+     <path id="path4501-1" d="M92.5,0c-3.972,0-7.5,3.5277-7.5,7.5,0,3.972,3.528,7.5,7.5,7.5s7.5-3.528,7.5-7.5c0-3.9723-3.528-7.5-7.5-7.5zm0,1.0938c3.3104,0,6.4062,3.0958,6.4062,6.4062s-3.0958,6.4062-6.4062,6.4062-6.4062-3.0958-6.4062-6.4062,3.0958-6.4062,6.4062-6.4062z" style="baseline-shift:baseline;block-progression:tb;fill:#bfaa30;color:#000000;opacity:1;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;"/>
+  <path id="rect5624" style="opacity:1;fill-rule:evenodd;fill:#bfaa30;" d="M89.281,3.125l-1.125,1.125,3.344,3.3125-3.344,3.3435,1.125,1.125,3.344-3.3435,3.313,3.3435,1.124-1.125-3.312-3.3435,3.312-3.3125-1.124-1.125-3.313,3.3125-3.344-3.3125z"/>
+   </g> 
+   <rect style="opacity:0;fill:#bfaa30;fill-opacity:1;fill-rule:evenodd;stroke:none" id="narratorPlayTouchArea" width="70" height="70" x="15" y="15" />
+   <rect style="opacity:0;fill:#bfaa30;fill-opacity:1;fill-rule:evenodd;stroke:none" id="narratorDisableTouchArea" width="15" height="15" x="85" y="0" />
+   <g id="narratorSkipButton" style="opacity:1">
+    <path style="opacity:1;direction:ltr;enable-background:accumulate;baseline-shift:baseline;block-progression:tb;text-indent:0;color:#000000;fill:#bfaa30;text-transform:none;text-align:start;" d="m7.7295,84.771c-3.972,0-7.5,3.5277-7.5,7.5,0,3.972,3.528,7.5,7.5,7.5s7.5-3.528,7.5-7.5c0-3.9723-3.528-7.5-7.5-7.5zm0,1.0938c3.3104,0,6.4062,3.0958,6.4062,6.4062s-3.0958,6.4062-6.4062,6.4062-6.4062-3.0958-6.4062-6.4062,3.0958-6.4062,6.4062-6.4062z"/>
+    <path style="opacity:1;stroke:#bfaa30;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:1.56700003;fill:none;" d="m6.1625,88.074,4.5829,4.2712-4.5631,4.2528"/>
+    <rect id="narratorSkipTouchArea" style="opacity:0;stroke-width:0.10000000000000001;" height="15" width="15" y="85.197" x="0.22773"/>
+  </g>
+</svg>
+
+ 
+</div>
+
+<!--#include file="svg/mainVideo.svg"-->
+  
+ </div>
+</div>
+<!-- video control bar for editing purposes -->
+
+ <div id='editControlPanelDiv' style="border:1px solid black; border-radius:5px; position:absolute; z-index:1000; right:0px; top:0px;" >
+  <div id="ecpMovePoint" style="background-color:red; height:10px; width:10px; float:right;"></div>
+  <div id="ecpMovePointShadow" style="height:30px; top:-12px; width:30px; left:650px; position:absolute;"></div>
+    <table id='controlTable' >
+     <tr> 
+      <td></td>
+      <td id='timeIndexCell'></td>
+      <td><button id='skipBackwardButton'><< </button>
+      <td><input id='backwardStepCountField' type="text"></input></td>
+      <td><button id='playButton'> > </button>
+      <td><button id='pauseButton'> || </button>
+      <td><input id='forwardStepCountField' type="text"></input></td>
+      <td><button id='skipForwardButton'> >> </button></td>
+      <td><input  id='timeReturnField' type="text"></input></td>
+      <td><input type="checkbox" id='autoReturnCheckbox'> </td>
+    </tr>
+   </table>
+ </div> 
+
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/elements.js"></script>
+<script type="text/javascript" src="js/mainVideo/timeline.js"></script>
+<script type="text/javascript" src="js/mainVideo/takeDowns.js"></script>
+<script type="text/javascript" src="js/mainVideo/setups.js"></script>
+<script type="text/javascript"> goog.require('browser_connect');
+                                saetos.cljs.app.init();
+</script>  
+
+
+</body>
+</html>
