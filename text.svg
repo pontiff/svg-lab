@@ -1,0 +1,7 @@
+  <svg id="narratorController" xmlns="http://www.w3.org/2000/svg" style="position:absolute; height:128%; width:128%; top:-14%; left: -14%;" viewbox="0 0 100 100">
+   <g id="mainPlayButton" style="opacity:1;" >
+     <path id="path4501" d="M50,25c-6.568,0-13.043,2.668-17.688,7.312-4.644,4.645-7.312,11.12-7.312,17.688s2.668,13.043,7.312,17.688c4.645,4.644,11.12,7.312,17.688,7.312s13.043-2.668,17.688-7.312c4.644-4.645,7.312-11.12,7.312-17.688s-2.668-13.043-7.312-17.688c-4.645-4.644-11.12-7.312-17.688-7.312zm0,3.625c5.5698,0,11.155,2.3428,15.094,6.2812,3.938,3.939,6.281,9.524,6.281,15.094,0,5.5698-2.3428,11.155-6.2812,15.094-3.939,3.938-9.524,6.281-15.094,6.281s-11.155-2.343-15.094-6.281c-3.938-3.939-6.281-9.524-6.281-15.094,0-5.5698,2.3428-11.155,6.2812-15.094,3.939-3.938,9.524-6.281,15.094-6.281z" style="baseline-shift:baseline;block-progression:tb;fill:#bfaa30;color:#000000;opacity:1;direction:ltr;text-indent:0;text-align:start;enable-background:accumulate;text-transform:none;"/>
+     <path id="path5622" style="opacity:1;fill:#bfaa30;" d="m64.536,50.318-11.111,6.9745-11.111,6.9745,0-13.949,0-13.949,11.111,6.9745z"/>
+   </g>
+   <rect style="cursor:pointer; opacity:0;fill:#bfaa30;fill-opacity:1;fill-rule:evenodd;stroke:none" id="mainPlayTouchArea" width="70" height="70" x="15" y="15" />
+</svg>

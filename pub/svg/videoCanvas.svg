@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   style="position:absolute; z-index:20"
+   id="mainVideoSvg"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="videoCanvas.svg"
+   viewBox="0 0 1600 900">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 450 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1600 : 450 : 1"
+       inkscape:persp3d-origin="800 : 300 : 1"
+       id="perspective2991" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="306.31569"
+     inkscape:cy="284.51792"
+     inkscape:document-units="px"
+     inkscape:current-layer="mainVideoSvg"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1004"
+     inkscape:window-x="-4"
+     inkscape:window-y="-1"
+     inkscape:window-maximized="1"
+     inkscape:showpageshadow="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="background"
+     sodipodi:insensitive="true">
+    <image
+       y="-616.66327"
+       x="-933.33002"
+       id="image3056"
+       xlink:href="file:///home/user/code/svg-lab/dev/snapshot.png"
+       height="2133.3333"
+       width="2666.6667"
+       style="opacity:0.43347641" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-152.36218)" />
+  <g
+     id="mainPlayButton"
+     transform="translate(0,38.8)"
+     style="display:inline">
+    <g
+       id="g3007"
+       transform="matrix(10.28348,0,0,10.28348,301.51,-90.386)">
+      <path
+         style="text-indent:0;text-align:start;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;color:#000000;fill:#bfaa30;enable-background:accumulate"
+         d="M 50,25 C 43.432,25 36.957,27.668 32.312,32.312 27.668,36.957 25,43.432 25,50 25,56.568 27.668,63.043 32.312,67.688 36.957,72.332 43.432,75 50,75 56.568,75 63.043,72.332 67.688,67.688 72.332,63.043 75,56.568 75,50 75,43.432 72.332,36.957 67.688,32.312 63.043,27.668 56.568,25 50,25 z m 0,3.625 c 5.5698,0 11.155,2.3428 15.094,6.2812 3.938,3.939 6.281,9.524 6.281,15.094 0,5.5698 -2.3428,11.155 -6.2812,15.094 -3.939,3.938 -9.524,6.281 -15.094,6.281 -5.57,0 -11.155,-2.343 -15.094,-6.281 -3.938,-3.939 -6.281,-9.524 -6.281,-15.094 0,-5.5698 2.3428,-11.155 6.2812,-15.094 3.939,-3.938 9.524,-6.281 15.094,-6.281 z"
+         id="path4501"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 64.536,50.318 -11.111,6.9745 -11.111,6.9745 0,-13.949 0,-13.949 11.111,6.9745 z"
+         style="fill:#bfaa30"
+         id="path5622"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       transform="matrix(1.0581488,0,0,1.0581488,-78.77295,-128.10662)"
+       d="m 1086.116,520.99078 c 0,132.77826 -107.63803,240.41631 -240.41629,240.41631 -132.77826,0 -240.41631,-107.63805 -240.41631,-240.41631 0,-132.77826 107.63805,-240.4163 240.41631,-240.4163 132.77826,0 240.41629,107.63804 240.41629,240.4163 z"
+       sodipodi:ry="240.41631"
+       sodipodi:rx="240.41631"
+       sodipodi:cy="520.99078"
+       sodipodi:cx="845.69971"
+       id="path3096"
+       style="opacity:0;fill:#000000;fill-opacity:1;stroke:none"
+       sodipodi:type="arc" />
+  </g>
+  <path
+     style="fill:#6176c0;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     d="m 1570.8438,0 c -0.2202,0.62576204 -0.3438,1.2971125 -0.3438,2 l 0,22.5 c 0,3.324 2.676,6 6,6 l 22.5,0 c 0.4262,0 0.8494,-0.04128 1.25,-0.125 l 0,-30.375 -29.4062,0 z"
+     id="screenChanger"
+     inkscape:connector-curvature="0" />
+  <g
+     frame="0"
+     class="rtocList"
+     style="display:none"
+     id="g3007-3"
+     transform="matrix(1.1218274,0,0,1,-0.09436789,450)">
+    <rect
+       style="fill:#6176c0;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3009"
+       width="394"
+       height="114"
+       x="0.77460313"
+       y="242.48022"
+       rx="10"
+       ry="13.571428" />
+    <text
+       index="mainVideo 0 narratorVideo 0"
+       class="rtoc"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#bfaa30;fill-opacity:1;stroke:none;font-family:Sans"
+       x="7.0359521"
+       y="291.07751"
+       id="text3011"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3013"
+         x="7.0359521"
+         y="291.07751">Introduction</tspan></text>
+    <text
+       index="mainVideo 0 narratorVideo 165"
+       class="rtoc"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#bfaa30;fill-opacity:1;stroke:none;font-family:Sans"
+       x="4.0837321"
+       y="328.8161"
+       id="text3015"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3017"
+         x="4.0837321"
+         y="328.8161">Setting for the Good Cop</tspan></text>
+  </g>
+</svg>
